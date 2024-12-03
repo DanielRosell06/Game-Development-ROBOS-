@@ -16,6 +16,7 @@
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_inimigo_padrao","path":"objects/obj_inimigo_padrao/obj_inimigo_padrao.yy",},"propertyId":{"name":"Peso","path":"objects/obj_inimigo_padrao/obj_inimigo_padrao.yy",},"value":"4",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_inimigo_padrao","path":"objects/obj_inimigo_padrao/obj_inimigo_padrao.yy",},"propertyId":{"name":"estado","path":"objects/obj_inimigo_padrao/obj_inimigo_padrao.yy",},"value":"desativado",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_inimigo_padrao","path":"objects/obj_inimigo_padrao/obj_inimigo_padrao.yy",},"propertyId":{"name":"QuantidadeFumacaVivo","path":"objects/obj_inimigo_padrao/obj_inimigo_padrao.yy",},"value":"2000",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_inimigo_padrao","path":"objects/obj_inimigo_padrao/obj_inimigo_padrao.yy",},"propertyId":{"name":"DistanciaAtivacao","path":"objects/obj_inimigo_padrao/obj_inimigo_padrao.yy",},"value":"120",},
   ],
   "parent": {
     "name": "owlyn",

@@ -74,7 +74,7 @@ switch estado
 	break
 		
 	case "atirando":
-		if distance_to_object(obj_player)<70
+		if distance_to_object(obj_player)<50
 		{
 			passou = 0
 			estado = "normal"
@@ -183,8 +183,9 @@ if saindo_raio and !instance_exists(obj_ataque_owlyn)
 	ataque.direcao = direcao
 }
 
-if !saindo_raio and instance_exists(ataque)
+if !(saindo_raio and instance_exists(ataque)) or (estado == "normal" and instance_exists(ataque))
 {
+	saindo_raio = false
 	instance_destroy(ataque)
 }
 

@@ -6,17 +6,17 @@ if continuar_combo = 1{
 	{
 		fase_combo+=1
 	
-		if fase_combo = 2 and !place_meeting(x+(12*direcao), y, obj_parede)
+		if fase_combo = 2 and !place_meeting(x+(20*direcao), y, obj_parede)
 		{
 			x+=12*direcao
 		}
 	
-		if fase_combo = 3 and !place_meeting(x+(12*direcao), y, obj_parede)
+		if fase_combo = 3 and !place_meeting(x+(20*direcao), y, obj_parede)
 		{
 			x+=12*direcao
 		}
 	
-		if fase_combo = 5 and !place_meeting(x+(12*direcao), y, obj_parede)
+		if fase_combo = 5 and !place_meeting(x+(20*direcao), y, obj_parede)
 		{
 			x+=12*direcao
 		}
@@ -38,17 +38,17 @@ else
 	if (fase_combo = 1 or fase_combo = 4)
 	{
 		fase_combo += 1
-		if fase_combo = 2 and !place_meeting(x+(12*direcao), y, obj_parede)
+		if fase_combo = 2 and !place_meeting(x+(20*direcao), y, obj_parede)
 		{
 			x+=12*direcao
 		}
 	
-		if fase_combo = 3 and !place_meeting(x+(12*direcao), y, obj_parede)
+		if fase_combo = 3 and !place_meeting(x+(20*direcao), y, obj_parede)
 		{
 			x+=12*direcao
 		}
 	
-		if fase_combo = 5 and !place_meeting(x+(12*direcao), y, obj_parede)
+		if fase_combo = 5 and !place_meeting(x+(20*direcao), y, obj_parede)
 		{
 			x+=12*direcao
 		}

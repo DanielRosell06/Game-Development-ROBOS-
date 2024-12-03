@@ -20,13 +20,13 @@
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_inimigo_padrao","path":"objects/obj_inimigo_padrao/obj_inimigo_padrao.yy",},"propertyId":{"name":"HpMax","path":"objects/obj_inimigo_padrao/obj_inimigo_padrao.yy",},"value":"120",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_inimigo_padrao","path":"objects/obj_inimigo_padrao/obj_inimigo_padrao.yy",},"propertyId":{"name":"JeitoDeMorte","path":"objects/obj_inimigo_padrao/obj_inimigo_padrao.yy",},"value":"0",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_inimigo_padrao","path":"objects/obj_inimigo_padrao/obj_inimigo_padrao.yy",},"propertyId":{"name":"direcao","path":"objects/obj_inimigo_padrao/obj_inimigo_padrao.yy",},"value":"-1",},
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_inimigo_padrao","path":"objects/obj_inimigo_padrao/obj_inimigo_padrao.yy",},"propertyId":{"name":"DistanciaAtivacao","path":"objects/obj_inimigo_padrao/obj_inimigo_padrao.yy",},"value":"102",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_inimigo_padrao","path":"objects/obj_inimigo_padrao/obj_inimigo_padrao.yy",},"propertyId":{"name":"DistanciaAtivacao","path":"objects/obj_inimigo_padrao/obj_inimigo_padrao.yy",},"value":"70",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_inimigo_padrao","path":"objects/obj_inimigo_padrao/obj_inimigo_padrao.yy",},"propertyId":{"name":"QuantidadeParticolaMorto","path":"objects/obj_inimigo_padrao/obj_inimigo_padrao.yy",},"value":"10",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_inimigo_padrao","path":"objects/obj_inimigo_padrao/obj_inimigo_padrao.yy",},"propertyId":{"name":"dano_player","path":"objects/obj_inimigo_padrao/obj_inimigo_padrao.yy",},"value":"30",},
   ],
   "parent": {
-    "name": "nao visiveis",
-    "path": "folders/Objects/nao visiveis.yy",
+    "name": "olwer",
+    "path": "folders/Objects/inimigos/olwer.yy",
   },
   "parentObjectId": {
     "name": "obj_inimigo_padrao",

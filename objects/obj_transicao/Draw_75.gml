@@ -19,44 +19,8 @@ if transitou = -1
 
 if w > 320 and transitou = 0
 {
-	room_goto(destino)
-	
+	if room != destino{room_goto(destino)}
 	transitou = 1
 	alarm[0] = 30
 }
 
-if transitou = 1
-{
-	switch orientacao
-	{
-		case "oeste":
-		if instance_exists(obj_saida_oeste)
-		{
-			obj_player.x = obj_saida_oeste.x + 28
-			obj_player.y = obj_saida_oeste.y + 10
-		}
-		break;
-		
-		case "leste":
-		if instance_exists(obj_saida_leste)
-		{
-			obj_player.x = obj_saida_leste.x - 23
-			obj_player.y = obj_saida_leste.y + 10
-		}
-		break;
-		
-		case "norte":
-		if instance_exists(obj_saida_norte)
-		{
-			obj_player.x = obj_saida_oeste.x + 17
-		}
-		break;
-		
-		case "sul":
-		if instance_exists(obj_saida_sul)
-		{
-			obj_player.x = obj_saida_oeste.x + 17
-		}
-		break;
-	}
-}

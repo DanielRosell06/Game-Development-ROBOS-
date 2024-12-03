@@ -41,7 +41,7 @@
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"Hp","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"100","varType":1,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"HpMax","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"100","varType":1,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"JeitoDeMorte","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"0","varType":1,},
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"DistanciaAtivacao","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":true,"rangeMax":600.0,"rangeMin":30.0,"value":"102","varType":1,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"DistanciaAtivacao","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":true,"rangeMax":600.0,"rangeMin":30.0,"value":"60","varType":1,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"direcao","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"1","varType":0,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"atingido","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"0","varType":0,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"morto","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"0","varType":0,},

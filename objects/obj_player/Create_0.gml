@@ -3,7 +3,7 @@
 
 hsp = 0
 vsp = 0
-grv = 0.12
+grv = 0.10
 max_speed = 1
 pode_pular = 1
 pulando = false

@@ -166,7 +166,6 @@ function possivel_pular()
 	if global.player_state == "morrendo"
 	{
 		hsp = 0
-		vsp = 0
 		
 		sprite_index = spr_player_morrendo
 		if image_index >= 13

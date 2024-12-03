@@ -5,6 +5,8 @@ follow = obj_player
 view_w = camera_get_view_width(cam)
 view_h = camera_get_view_height(cam)
 
+room_atual = room
+
 xTo = follow.x
 yTo = follow.y
 

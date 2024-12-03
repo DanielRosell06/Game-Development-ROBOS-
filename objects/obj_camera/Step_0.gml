@@ -26,6 +26,8 @@ y = clamp(y, view_h/2, room_height - view_h/2)
 camera_set_view_pos(cam, x-view_w/2, y-view_h/2)
 camera_set_view_angle(cam, shake)
 
+
+
 /*
 if layer_exists("Backgrounds")
 {
