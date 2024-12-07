@@ -2,10 +2,10 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_fundo_esgoto_inicial_2_frente",
-  "bbox_bottom": 209,
-  "bbox_left": 41,
-  "bbox_right": 129,
-  "bbox_top": 105,
+  "bbox_bottom": 239,
+  "bbox_left": 156,
+  "bbox_right": 1827,
+  "bbox_top": 16,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b41818e0-245f-42eb-bae8-ed6bbf86c326",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1527e260-3632-4a8a-b875-45dc4c2fa634",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 240,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"178fc9fe-6a6c-41e9-a672-efbd49b920da","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"3779fb55-3b0e-4763-a9d7-16bd74afcc97","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"b41818e0-245f-42eb-bae8-ed6bbf86c326","path":"sprites/spr_fundo_esgoto_inicial_2_frente/spr_fundo_esgoto_inicial_2_frente.yy",},},},"Disabled":false,"id":"440eeae9-880a-45ca-9df9-e73bc0704d1b","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"1527e260-3632-4a8a-b875-45dc4c2fa634","path":"sprites/spr_fundo_esgoto_inicial_2_frente/spr_fundo_esgoto_inicial_2_frente.yy",},},},"Disabled":false,"id":"4954a43d-3282-4d4e-bca9-d4d1fadd4a4c","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 1600,
+  "width": 1920,
 }

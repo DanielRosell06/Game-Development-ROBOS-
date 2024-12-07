@@ -28,12 +28,16 @@ camera_set_view_angle(cam, shake)
 
 
 
-/*
-if layer_exists("Backgrounds")
-{
-	layer_x("Backgrounds", x/2)
-}
 
+if layer_exists("Frente")
+{
+	var layer_id = layer_get_id("Frente")
+	var background_id = layer_background_get_id(layer_id)
+	var layer_sprite = layer_background_get_sprite(background_id)
+	var layer_sprite_width = sprite_get_width(layer_sprite)
+	layer_x("Frente", (x/room_width) * (room_width - layer_sprite_width))
+}
+/*
 if layer_exists("Backgrounds_1")
 {
 	layer_x("Backgrounds_1",x/20)

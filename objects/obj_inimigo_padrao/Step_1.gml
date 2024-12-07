@@ -12,27 +12,27 @@ if place_meeting(x, y, obj_ataque)
 	{
 		case 1:
 			vsp = -4
-			hsp = -direcao * 3
+			hsp = obj_player.direcao * 3
 		break;
 		case 2:
 			vsp = -3
-			hsp = -direcao * 2
+			hsp = obj_player.direcao * 2
 		
 		break
 		case 3:
 			vsp = -2
-			hsp = -direcao		
+			hsp = obj_player.direcao		
 		break
 		case 4:
 			vsp = -1
-			hsp = -direcao
+			hsp = obj_player.direcao
 		break
 		case 5:
 			hsp = hsp // Vapo
 		break
 		
 		default:
-			hsp = direcao
+			hsp = obj_player.direcao
 		break
 	}
 	scr_pause_ataque(HitStopTime)

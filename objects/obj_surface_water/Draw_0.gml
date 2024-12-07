@@ -58,7 +58,8 @@ else
 			var layer_id = layer_get_id("Frente")
 			var background_id = layer_background_get_id(layer_id)
 			var sprite_fundo = layer_background_get_sprite(background_id)
-			draw_sprite(sprite_fundo, image_index/10, 0, 0)
+			var layer_sprite_width = sprite_get_width(sprite_fundo)
+			draw_sprite(sprite_fundo, 0,  (obj_camera.x/room_width) * (room_width - layer_sprite_width), 0)
 		}
 		
 }
