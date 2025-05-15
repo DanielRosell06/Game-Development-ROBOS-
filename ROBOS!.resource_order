@@ -21,6 +21,7 @@
     {"name":"esgoto_inicial","order":4,"path":"folders/Rooms/esgoto_inicial.yy",},
     {"name":"Scripts","order":5,"path":"folders/Scripts.yy",},
     {"name":"particolas","order":5,"path":"folders/Scripts/particolas.yy",},
+    {"name":"utils","order":11,"path":"folders/Scripts/utils.yy",},
     {"name":"Sequences","order":11,"path":"folders/Sequences.yy",},
     {"name":"Shaders","order":6,"path":"folders/Shaders.yy",},
     {"name":"Sounds","order":3,"path":"folders/Sounds.yy",},
@@ -44,7 +45,6 @@
     {"name":"tile_sets","order":8,"path":"folders/Sprites/tile_sets.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
-    {"name":"utils","order":11,"path":"folders/Scripts/utils.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_escadas","order":1,"path":"sprites/spr_escadas/spr_escadas.yy",},
