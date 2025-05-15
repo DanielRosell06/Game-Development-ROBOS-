@@ -28,7 +28,7 @@ if paused == true
 			var layer_id = layer_get_id("Frente")
 			var background_id = layer_background_get_id(layer_id)
 			var sprite_fundo = layer_background_get_sprite(background_id)
-			draw_sprite(sprite_fundo, image_index/10, -cam_x, -cam_y)
+			draw_sprite(sprite_fundo, image_index/10, ((obj_camera.x/room_width) * (room_width - sprite_get_width(sprite_fundo))) -cam_x, -cam_y)
 		}
 		surface_reset_target()
 		
@@ -93,7 +93,7 @@ if global.pausa_ataque == 1
 			var background_id = layer_background_get_id(layer_id)
 			var sprite_fundo = layer_background_get_sprite(background_id)
 			var layer_sprite_width = sprite_get_width(sprite_fundo)
-			draw_sprite(sprite_fundo, (x/room_width) * (room_width - layer_sprite_width), -cam_x, -cam_y)
+			draw_sprite(sprite_fundo, image_index/10, ((obj_camera.x/room_width) * (room_width - sprite_get_width(sprite_fundo))) -cam_x, -cam_y)
 		}
 		surface_reset_target()
 		alarm[0] = global.tempo_pausa
